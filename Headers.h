@@ -3,6 +3,9 @@
 #include <vector>
 #include <memory>
 #include <string>
+#include <fstream>
+#include <sstream>
+#include <algorithm>
 using std::cout;
 using std::cin;
 using std::ifstream;
@@ -16,3 +19,5 @@ using std::endl;
 using std::fixed;
 using std::setprecision;
 using std::make_shared;
+using std::setw;
+using std::left;
